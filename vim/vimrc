@@ -271,3 +271,6 @@ set undofile
 set undodir=~/.vim-tmp/undodir
 
 nnoremap <Leader>p :!highlight -s solarized-light -O rtf % \| pbcopy<CR><CR>
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
