@@ -161,8 +161,6 @@ function! <SID>StripTrailingWhitespaces()
 endfunction
 autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 
-"set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim/
-
 " Use poweline fonts in airline
 let g:airline_powerline_fonts = 1
 let g:airline_left_sep = ' ' " No >
@@ -273,4 +271,3 @@ set undofile
 set undodir=~/.vim-tmp/undodir
 
 nnoremap <Leader>p :!highlight -s solarized-light -O rtf % \| pbcopy<CR><CR>
-source ~/.vim/vimrc/neobundle.vim
