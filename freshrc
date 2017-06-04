@@ -20,7 +20,3 @@ fresh config/\* --file
 # Vim
 fresh vim/vimrc --file
 fresh vim/vim --file=~/.vim/
-# Install neobundle
-install_vim_bundle(){
-  vim +NeoBundleInstall +qall
-}
