@@ -69,7 +69,7 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.scssc,*.sassc
 
 " Or use vividchalk
 set t_Co=256
-colorscheme base16-hopscotch
+colorscheme deus
 highlight clear SignColumn
 
 " Only do this part when compiled with support for autocommands
