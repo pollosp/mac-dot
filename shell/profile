@@ -11,11 +11,14 @@
 HISTCONTROL=$HISTCONTROL${HISTCONTROL+:}ignoredups
 # ... or force ignoredups and ignorespace
 HISTCONTROL=ignoreboth
+#
+# ASDF
+echo -e '\n. $HOME/.asdf/asdf.sh'
+echo -e '\n. $HOME/.asdf/completions/asdf.bash'
 
 # append to the history file, don't overwrite it
 shopt -s histappend
-#adds ASDF
-source /usr/local/opt/asdf/asdf.sh
+
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 
 # check the window size after each command and, if necessary,
