@@ -13,8 +13,7 @@ HISTCONTROL=$HISTCONTROL${HISTCONTROL+:}ignoredups
 HISTCONTROL=ignoreboth
 #
 # ASDF
-echo -e '\n. $HOME/.asdf/asdf.sh'
-echo -e '\n. $HOME/.asdf/completions/asdf.bash'
+source /usr/local/opt/asdf/asdf.sh
 
 # append to the history file, don't overwrite it
 shopt -s histappend
