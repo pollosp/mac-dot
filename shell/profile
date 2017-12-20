@@ -112,4 +112,5 @@ for dir in tmp _backup undodir; do
   [ ! -d $HOME/.vim-tmp/$dir ] && mkdir -p $HOME/.vim-tmp/$dir
 done
 
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export TERM='screen-256color'
