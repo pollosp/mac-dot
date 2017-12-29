@@ -111,3 +111,4 @@ done
 
 export TERM='screen-256color'
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
